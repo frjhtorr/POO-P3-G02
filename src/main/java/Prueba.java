@@ -10,5 +10,6 @@
 public class Prueba {
     public void probar(){
     System.out.println("Esto es un mensaje para ver cómo funciona el repositorio");
+    System.out.println("Prueba2");
     }
 }
