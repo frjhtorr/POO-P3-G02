@@ -8,16 +8,6 @@ package com.mycompany.gestionferia;
  *
  * @author Arturo
  */
-public class CuentaRedSocial {
-    private String cuenta;
-    private RedesSociales red;
-
-    public RedSocial(RedesSociales r, String c ){
-        this.red = r;
-        this.cuenta = c;
-    }
-    public String toString(){
-        return "Cuenta de: " +this.cuenta +"usurio: " +this.red ;
-    } 
-}
+public enum RedSocial {
+    TWITTER, FACEBOOK, INSTAGRAM, LINKEDIN, PINTEREST, YOUTUBE
 }
