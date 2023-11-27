@@ -6,8 +6,8 @@ package com.mycompany.gestionferia;
 
 /**
  *
- * @author Josh
+ * @author Arturo
  */
-public class RedSocial {
-    
+public enum RedSocial {
+    TWITTER, FACEBOOK, INSTAGRAM, LINKEDIN, PINTEREST, YOUTUBE
 }
