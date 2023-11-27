@@ -6,8 +6,8 @@ package com.mycompany.gestionferia;
 
 /**
  *
- * @author Josh
+ * @author Arturo
  */
-public class SectorCubierto {
-    
+public enum SectorCubierto{
+    ALIMENTACION, EDUCACION, SALUD, VESTIMENTA
 }
