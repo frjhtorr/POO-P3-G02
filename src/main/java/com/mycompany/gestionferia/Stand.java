@@ -6,8 +6,20 @@ package com.mycompany.gestionferia;
 
 /**
  *
- * @author Josh
+ * @author Arturo
  */
 public class Stand {
-    
+private int num;
+private boolean reservado; 
+private String owner;
+private String fecha;
+
+public String toString() {
+      return "Stand{" +
+             "num=" + num +
+             ", reservado=" + reservado +
+             ", owner='" + owner + '\'' +
+             ", fecha='" + fecha + '\'' +
+             '}';
+  }
 }
