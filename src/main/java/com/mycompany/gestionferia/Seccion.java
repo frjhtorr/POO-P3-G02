@@ -3,7 +3,8 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
  */
 package com.mycompany.gestionferia;
-
+import java.util.List;
+import java.util.ArrayList;
 /**
  *
  * @author Arturo
