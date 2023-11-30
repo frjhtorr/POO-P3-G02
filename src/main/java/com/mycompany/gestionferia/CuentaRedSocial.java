@@ -12,7 +12,7 @@ public class CuentaRedSocial {
     private String cuenta;
     private RedesSociales red;
 
-    public RedSocial(RedesSociales r, String c ){
+    public CuentaRedSocial(RedesSociales r, String c ){
         this.red = r;
         this.cuenta = c;
     }
