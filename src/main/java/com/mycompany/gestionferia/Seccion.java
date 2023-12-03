@@ -1,8 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
-package com.mycompany.gestionferia;
 import java.util.List;
 import java.util.ArrayList;
 /**
@@ -10,10 +5,14 @@ import java.util.ArrayList;
  * @author Arturo
  */
 public class Seccion {
+
+    //ATRIBUTOS -----------------------------------------------
+    
     private int cantStands;
     private String id;
-    private List<Stand> ListStands;
+    private ArrayList<Stand> ArrayStands;
 
+    //GETTERS AND SETTERS ------------------------------------------------
     public String getId() {
         return id;
     }
@@ -29,11 +28,13 @@ public class Seccion {
         this.id = id;
     }
 
-    public List<Stand> getListStands() {
-        return ListStands;
+    public ArrayList<Stand> getListStands() {
+        return ArrayStands;
     }
 
-    public void setListStands(List<Stand> ListStands) {
-        this.ListStands = ListStands;
+    public void setArrayStands(ArrayList<Stand> ArrayStands) {
+        this.ArrayStands = ArrayStands;
     }
 }
+
+ 
