@@ -1,3 +1,5 @@
+//PACKAGE
+package com.mycompany.gestionferia;
 //IMPORTS
 import java.util.*;
 import java.time.LocalDate;
