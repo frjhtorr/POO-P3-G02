@@ -1,3 +1,6 @@
+//PACKAGES
+package com.mycompany.gestionferia;
+//IMPORTS
 import java.util.List;
 import java.util.ArrayList;
 /**
