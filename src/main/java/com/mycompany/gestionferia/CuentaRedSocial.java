@@ -10,9 +10,9 @@ package com.mycompany.gestionferia;
  */
 public class CuentaRedSocial {
     private String cuenta;
-    private RedesSociales red;
+    private RedSocial red;
 
-    public CuentaRedSocial(RedesSociales r, String c ){
+    public CuentaRedSocial(RedSocial r, String c ){
         this.red = r;
         this.cuenta = c;
     }
@@ -20,3 +20,4 @@ public class CuentaRedSocial {
         return "Cuenta de: " +this.cuenta +"usurio: " +this.red ;
     } 
 }
+

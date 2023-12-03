@@ -11,3 +11,4 @@ package com.mycompany.gestionferia;
 public enum RedSocial {
     TWITTER, FACEBOOK, INSTAGRAM, LINKEDIN, PINTEREST, YOUTUBE
 }
+//REDES SOCIALES POSIBLES POR EL OBJETO TIPO PERSONA
