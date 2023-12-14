@@ -3,6 +3,7 @@ package com.mycompany.gestionferia;
 
 //IMPORTS
 
+
 //CLASE
 public class AuspicianteEnFeria {
     //VARIABLES DE INSTANCIA
@@ -42,6 +43,3 @@ public class AuspicianteEnFeria {
 
 }
     
-    
-    
-}

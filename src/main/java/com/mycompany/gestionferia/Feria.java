@@ -5,6 +5,7 @@ import java.util.*;
 import java.time.LocalDate;
 import java.time.Month;
 
+
 public class Feria{
   //VARIABLES DE INSTANCIA
     private String nombre;
@@ -391,7 +392,7 @@ public int cantidadAus(){
               
               // Si e existe, validamos lo de los 2 stands, dependiendo se asigna el stand
               if(coincidenciaE!=null){
-                ArrayList lstStandsE= coincidenciaE.lstStands;
+                ArrayList lstStandsE= coincidenciaE.getLstStands();
                 lstAuspiciantes = new ArrayList<>();
                 lstEmprendedores = new ArrayList<>();
                 if(!lstStandsE.isEmpty()){
@@ -400,7 +401,7 @@ public int cantidadAus(){
                   lstStandsE.add(st);
                   st.setOwner(coincidenciaE);
                 }else{
-                  coincidenciaE.lstStands.add(st);
+                  coincidenciaE.getLstStands().add(st);
                   st.setOwner(coincidenciaE);
                 }
                 }else{
@@ -437,7 +438,7 @@ public int cantidadAus(){
   //CONSULTAR EMPRENDEDORES
 public void consultarEmprendedores(){
     for(Emprendedor emp: this.lstEmprendedores){
-      if(emp.lstStands.size() > 0){
+      if(emp.getLstStands().size() > 0){
                 System.out.println(emp.toString());
         }
     }

@@ -1,7 +1,8 @@
 //PAQUETE
-package modelo;
+package com.mycompany.gestionferia;
 
 //IMPORTS
+
 import java.util.List;
 import java.util.ArrayList;
 import java.util.Scanner;
